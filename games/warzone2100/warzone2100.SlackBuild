@@ -91,7 +91,6 @@ find $PKG -name perllocal.pod \
   -o -name "*.bs" \
   | xargs rm -f
 
-
 # Let's not pollute the themed icon directory
 mv $PKG/usr/share/icons $PKG/usr/share/pixmaps
 
